@@ -1,0 +1,152 @@
+@import url(https://fonts.googleapis.com/css?family=Press+Start+2P);
+@import url(https://fonts.googleapis.com/css?family=Press+Start+2P);
+@import url(https://fonts.googleapis.com/css?family=Press+Start+2P);
+@font-face {
+    font-family: 'Press Start 2P';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/pressstart2p/v15/e3t4euO8T-267oIAQAu6jDQyK3nVivNm4I81.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  @font-face {
+    font-family: gg sans;
+    font-style: normal;
+    font-weight: 400;
+    src: url(Assets/3d6549bf2f38372c054eafb93fa358a9.woff2) format("woff2")
+}
+
+@font-face {
+    font-family: gg sans;
+    font-style: italic;
+    font-weight: 400;
+    src: url(Assets/dd1dfe31c073b2b0a8f94cb1a0b7fbb0.woff2) format("woff2")
+}
+
+@font-face {
+    font-family: gg sans;
+    font-style: normal;
+    font-weight: 500;
+    src: url(Assets/7f63813838e283aea62f1a68ef1732c2.woff2) format("woff2")
+}
+
+@font-face {
+    font-family: gg sans;
+    font-style: italic;
+    font-weight: 500;
+    src: url(Assets/2ada321f62e9743e0f9f2882960c8f9d.woff2) format("woff2")
+}
+
+@font-face {
+    font-family: gg sans;
+    font-style: normal;
+    font-weight: 600;
+    src: url(Assets/71d3e9dc2bcb8e91225ba9fab588c8f2.woff2) format("woff2")
+}
+
+@font-face {
+    font-family: gg sans;
+    font-style: italic;
+    font-weight: 600;
+    src: url(Assets/e3cd8b0354d764c89f6abcf561081a85.woff2) format("woff2")
+}
+
+@font-face {
+    font-family: gg sans;
+    font-style: normal;
+    font-weight: 700;
+    src: url(Assets/ff5eccde83f118cea0224ebbb9dc3179.woff2) format("woff2")
+}
+
+@font-face {
+    font-family: gg sans;
+    font-style: italic;
+    font-weight: 700;
+    src: url(Assets/41a3d598a613a77c1d80b3ec957a2975.woff2) format("woff2")
+}
+
+@font-face {
+    font-family: gg sans;
+    font-style: normal;
+    font-weight: 800;
+    src: url(Assets/f5aba5511523dcae97748a1b35bbffe8.woff2) format("woff2")
+}
+
+@font-face {
+    font-family: gg sans;
+    font-style: italic;
+    font-weight: 800;
+    src: url(Assets/b10a4ad08f83816da8deaa1c1963dd04.woff2) format("woff2")
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a,li{
+    text-decoration: none;
+}
+.hero{
+    background-color: #404eed;
+    min-height: 600px;
+    font-family: "gg sans";
+    
+}
+.wrapper-nav
+{
+    /* background-color: red; */
+    height: 80px;
+    width: 1260px;
+    margin: 0 auto;
+    font-family: "gg sans";
+    /* display: flex; */
+    /* align-items: center; */
+}
+.logo{
+    margin-top: 0.6rem;
+}
+.nav
+{
+    margin: 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+.logo a svg{
+    color: #fff;
+}
+.nav-link-wrapper{
+    /* margin:0 8rem; */
+    /* text-align: center; */
+    /* padding: 10px; */
+    flex: 1 1 auto;
+}
+.nav-link{
+    /* display: flex; */
+    text-align: center;
+    /* justify-content: space-evenly; */
+    flex: 1 1 auto;
+}
+.nav-link a{
+    color: #fff;
+    padding: 10px;
+    margin: 10px;
+    font-weight: 600;
+}
+.nav-link a:hover{
+    text-decoration: underline;
+}
+.btn
+{
+    padding: 7px 16px;
+    color: #23272a;
+    background-color: #fff;
+    border-radius: 40px;
+    transition: box-shadow;
+    transition-duration: .2s;
+}
+.btn:hover{
+    box-shadow: 0 10px 15px rgba(0,0,0,0.2);
+}
