@@ -105,6 +105,7 @@ a,li{
     background-image: url(./Assets/hero-back.svg);
     background-position: 50% 0;
     position: relative;
+    overflow-x: hidden;
 }
 .hero-left-img
 {
@@ -236,4 +237,35 @@ a,li{
 }
 .hero-open-discord-btn:hover{
     background-color: hsl(223,calc(var(--saturation-factor, 1)*6.7%),20.6%)
+}
+
+.invite-sec{
+    /* background-color: red; */
+    width: 1260px;
+    margin: 0 auto;
+    display: flex;
+    gap: 6rem;
+    padding: 7.5rem 2.5rem;
+    /* margin: 8rem 0; */
+}
+.invite-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    max-width: 24rem;
+}
+.invite-content h2{
+    font-size: 48px;
+    font-family: "gg sans";
+    font-weight: 800;
+    line-height: 120%;
+    max-width: 25rem;
+}
+.invite-content p {
+    font-family: "gg sans";
+    font-size: 20px;
+    font-weight: 400;
+    color: #23272a;
+    word-wrap: break-word;
 }
