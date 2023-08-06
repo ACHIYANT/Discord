@@ -239,7 +239,7 @@ a,li{
     background-color: hsl(223,calc(var(--saturation-factor, 1)*6.7%),20.6%)
 }
 
-.invite-sec{
+.section-img-content{
     /* background-color: red; */
     width: 1260px;
     margin: 0 auto;
@@ -248,24 +248,27 @@ a,li{
     padding: 7.5rem 2.5rem;
     /* margin: 8rem 0; */
 }
-.invite-content{
+.section-content-side{
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 2rem;
     max-width: 24rem;
 }
-.invite-content h2{
+.section-heading{
     font-size: 48px;
     font-family: "gg sans";
     font-weight: 800;
     line-height: 120%;
     max-width: 25rem;
 }
-.invite-content p {
+.section-content {
     font-family: "gg sans";
     font-size: 20px;
     font-weight: 400;
     color: #23272a;
     word-wrap: break-word;
+}
+.hanging-out{
+    background-color: #f6f6f6;
 }
